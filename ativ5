@@ -1,0 +1,24 @@
+package Classes;
+
+public class ObjetoComputador {
+	public static void main(String[] args) {
+
+		Computador  computador1 = new Computador();  
+		
+		computador1.setCor("preto");
+		computador1.setMaterial("plastico");
+		computador1.setMarca("dell");
+		
+		System.out.println("------COMPUTADOR-1--------");
+		System.out.println(computador1.getCor());
+		System.out.println(computador1.getMaterial());
+		System.out.println(computador1.getMarca());
+		System.out.println(computador1.getLigar());
+		System.out.println(computador1.getDesligar());
+		
+		
+		
+		
+		
+}
+}
