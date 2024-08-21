@@ -1,0 +1,27 @@
+package Classes;
+
+public class ObjetoFornecedor {
+	public static void main(String[] args) {
+
+		Fornecedor fornecedor1 = new Fornecedor();
+		fornecedor1.setRazaoSocial("preto");
+		fornecedor1.setNomeFantasia("xxxxxxxx");
+		fornecedor1.setInscricaoEstadual("xxxxxx");
+		fornecedor1.cnpj("xxxxxx");
+		fornecedor1.setEndereco("xxxxxx");
+		fornecedor1.setEmail("xxxxxx");
+		fornecedor1.setPagar("xxxxxx");
+		fornecedor1.setVender("xxxxxx");
+		fornecedor1.setId(45);
+		System.out.println("----Computador1----");
+		System.out.println(fornecedor1.getRazaoSocial());
+		System.out.println(fornecedor1.getNomeFantasia());
+		System.out.println(fornecedor1.getinscricaoEstadual());
+		System.out.println(fornecedor1.getCnpj());
+		System.out.println(fornecedor1.getEndereco());
+		System.out.println(fornecedor1.getEmail());
+		System.out.println(fornecedor1.getPagar());
+		System.out.println(fornecedor1.getVender());
+		System.out.println(fornecedor1.getId());
+	}
+}
