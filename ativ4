@@ -1,0 +1,42 @@
+package Classes;
+
+public class Usuario {
+
+	int idade;
+	String nome;
+	int senha;
+	String permissao;
+	String usuario;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getPermissao() {
+		return permissao;
+	}
+	public void setPermisao(String permissao) {
+		this.permissao = permissao;
+	}
+	public String getUsuario() {
+		return usuario;
+	}
+	public void setusUario(String usuario) {
+		this.usuario = usuario;
+	}
+	public int getSenha() {
+		return senha;
+	}
+	public void setSenha(int senha) {
+		this.senha = senha;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade; 
+	}
+	
+}
