@@ -1,0 +1,22 @@
+package Classes;
+
+public class ObjetoUsuario {
+
+	public static void main(String[] args) {
+		Usuario  usuario1 = new Usuario();  
+
+		usuario1.setNome("Laura");
+		usuario1.setPermisao("editar");
+		usuario1.setusUario("Administrador");
+		usuario1.setIdade(16);
+		usuario1.setSenha(1234);
+
+		System.out.println("------USUÁRIO-1--------");
+		System.out.println(usuario1.getNome());
+		System.out.println(usuario1.getPermissao());
+		System.out.println(usuario1.getUsuario());
+		System.out.println(usuario1.getIdade());
+		System.out.println(usuario1.getSenha());
+	}
+
+}
